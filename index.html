@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Codechef Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="setHeight()">
+	<header>
+		<div class="header-container">
+			<div class="top-menu">
+				<ul class="contact-info">
+					<li>
+						<a href="mailto:ccdsap@codechef.com"><img src="images/mail-ico.svg" alt="mail icon"> ccdsap@codechef.com</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/phone-ico.svg" alt="mail icon"> +91 93200 60499</a>
+					</li>
+				</ul>
+				<ul class="social-links">
+					<li><a href="#">Log-in</a></li>
+					<li class="newUser"><a href="#">New User</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="menu-section">
+		<div class="header-container">
+			<div class="main-menu-wrapper">
+				<h1 class="logo">
+					<img src="images/logo.jpg" alt="CodeChef Logo">
+				</h1>
+				<ul class="main-menu">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Levels</a></li>
+					<li><a href="#">Details</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="banner-wrapper">
+		<div class="banner-content">
+			<h2>India's only industry-ready certification in DSA</h2>
+			<p>Certify yourself with Codechef's Multi-Level Assessment in Data Structure &amp; Algorithms &amp; get globally recognized.</p>
+			<a href="#">Enroll Now</a>
+			<img src="images/chef-icon.svg" alt="Chef Icon">
+		</div>
+	</section>
+	<section class="dates-wrapper">
+		<section class="inner-container">
+			<ul>
+				<li>
+					<p>Exam Date</p>
+					<p class="date">31 Mar 2019</p>
+				</li>
+				<li>
+					<p>Last Date of Registration</p>
+					<p class="date">18 Mar 2019</p>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section class="certification-section">
+		<div class="inner-container">
+			<h2>DSA Certification</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, magni nobis? Recusandae explicabo numquam voluptatibus corrupti maxime tempora omnis eos reprehenderit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, magni nobis? Recusandae explicabo numquam voluptatibus corrupti maxime tempora omnis eos reprehenderit. Sequi iusto amet id, similique ab dolor quod dolore.</p>
+		</div>
+	</section>
+	<section class="levels-section">
+		<div class="inner-container">
+			<h2>Levels</h2>
+			<ul class="tabs-section">
+				<li><a href="javascript:void(0);" class="tabs-link active" id="foundation" onClick="changeTab(this);">Foundation</a></li>
+				<li><a href="javascript:void(0);" class="tabs-link" id="advanced" onClick="changeTab(this);">Advanced</a></li>
+				<li><a href="javascript:void(0);" class="tabs-link" id="expert" onClick="changeTab(this);">Expert</a></li>
+			</ul>
+			<div class="tabs-content">
+				<div class="tabs-wrapper active" id="foundation_tab">
+					<div class="tabs-text">
+						<p>This will certify that the person is fluent with the basics of algorithms and data structures and can implement them in code.</p>
+					</div>
+					<div class="course-details">
+						<ul>
+							<li>
+								<h3>Free Resources to Prepare</h3>
+							</li>
+							<li>
+								<p>Get the entire syllabus, which is accompained with resources on each topic with practice problems.<br><a href="#">Syllabus &amp; Resources</a></p>
+								<p>Once ready, give mock to test <br><a href="#">Mock Test</a></p>
+							</li>
+						</ul>
+						<ul class="price-details">
+							<li>
+								<h3>Course Price</h3>
+							</li>
+							<li>							
+								<div class="prices">
+									<img src="images/price-bg.png" alt="price background" class="desktop-img">
+									<img src="images/price-bg-mobile.png" alt="price background" class="mobile-img">
+									<div class="price-list">
+										<p>Rs.3,500/-</p>
+										<p><strong>Rs.2,500/-</strong> Discounted price</p>
+										<p>Avail between 25 Sept - 21 Oct</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="enroll-link">
+							<li></li>
+							<li>
+								<a href="#">Enroll Now</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tabs-wrapper" id="advanced_tab">
+					<div class="tabs-text">
+						<p>adv This will certify that the person is fluent with the basics of algorithms and data structures and can implement them in code.</p>
+					</div>
+					<div class="course-details">
+						<ul>
+							<li>
+								<h3>Free Resources to Prepare</h3>
+							</li>
+							<li>
+								<p>Get the entire syllabus, which is accompained with resources on each topic with practice problems.<br><a href="#">Syllabus &amp; Resources</a></p>
+								<p>Once ready, give mock to test <br><a href="#">Mock Test</a></p>
+							</li>
+						</ul>
+						<ul class="price-details">
+							<li>
+								<h3>Course Price</h3>
+							</li>
+							<li>							
+								<div class="prices">
+									<img src="images/price-bg.png" alt="price background" class="desktop-img">
+									<img src="images/price-bg-mobile.png" alt="price background" class="mobile-img">
+									<div class="price-list">
+										<p>Rs.3,500/-</p>
+										<p><strong>Rs.2,500/-</strong> Discounted price</p>
+										<p>Avail between 25 Sept - 21 Oct</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="enroll-link">
+							<li></li>
+							<li>
+								<a href="#">Enroll Now</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tabs-wrapper" id="expert_tab">
+					<div class="tabs-text">
+						<p>exp This will certify that the person is fluent with the basics of algorithms and data structures and can implement them in code.</p>
+					</div>
+					<div class="course-details">
+						<ul>
+							<li>
+								<h3>Free Resources to Prepare</h3>
+							</li>
+							<li>
+								<p>Get the entire syllabus, which is accompained with resources on each topic with practice problems.<br><a href="#">Syllabus &amp; Resources</a></p>
+								<p>Once ready, give mock to test <br><a href="#">Mock Test</a></p>
+							</li>
+						</ul>
+						<ul class="price-details">
+							<li>
+								<h3>Course Price</h3>
+							</li>
+							<li>							
+								<div class="prices">
+									<img src="images/price-bg.png" alt="price background" class="desktop-img">
+									<img src="images/price-bg-mobile.png" alt="price background" class="mobile-img">
+									<div class="price-list">
+										<p>Rs.3,500/-</p>
+										<p><strong>Rs.2,500/-</strong> Discounted price</p>
+										<p>Avail between 25 Sept - 21 Oct</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="enroll-link">
+							<li></li>
+							<li>
+								<a href="#">Enroll Now</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="testimonials-section">
+		<div class="inner-container">
+			<h2>Testimonials</h2>
+			<p>Lorem ipsum is simply a dummy text of the printing and typesetting industry</p>
+			<ul>
+				<li class="left">
+				</li>
+				<li class="middle">
+				</li>
+				<li class="right">
+				</li>
+			</ul>
+			<div class="slider-nav">
+				<p><a href="#" class="prev" title="Previous"><img src="images/previous.svg" alt="Previous"></a></p>
+				<p><a href="#" class="next" title="Next"><img src="images/next.svg" alt="Next"></a></p>
+			</div>
+		</div>
+	</section>
+	<section class="users-section">
+		<div class="inner-container">
+			<h2>Certified Users</h2>
+			<p>Lorem ipsum is simply a dummy text of the printing and typesetting industry</p>
+			<ul class="users-list">
+				<li>
+					<img src="images/neha-gupta.png" alt="Neha Gupta" />
+					<h3>Neha Gupta</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Swiggy</p>
+					<div class="certification-details">
+						<p class="certification-name">Advanced Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class="yellow"></li>
+							<li class="orange"></li>
+							<li class="red"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/ashok-pritam.png" alt="Ashok Pritam" />
+					<h3>Ashok Pritam</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Directi</p>
+					<div class="certification-details">
+						<p class="certification-name">Advanced Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class="yellow"></li>
+							<li class="orange"></li>
+							<li></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/rohit-bansal.png" alt="Rohit Bansal" />
+					<h3>Rohit Bansal</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Directi</p>
+					<div class="certification-details">
+						<p class="certification-name">Advanced Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class="yellow"></li>
+							<li class="orange"></li>
+							<li class="red"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/amit-chandra.png" alt="Amit Chandra" />
+					<h3>Amit Chandra</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Sharechat</p>
+					<div class="certification-details">
+						<p class="certification-name">Foundation Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class=""></li>
+							<li class=""></li>
+							<li class=""></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/rohit-makhana.png" alt="Rohit Makhana" />
+					<h3>Rohit Makhana</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Paytm</p>
+					<div class="certification-details">
+						<p class="certification-name">Foundation Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class=""></li>
+							<li class=""></li>
+							<li class=""></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/mita-roy.png" alt="Mita Roy" />
+					<h3>Mita Roy</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Directi</p>
+					<div class="certification-details">
+						<p class="certification-name">Advanced Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class="yellow"></li>
+							<li class="orange"></li>
+							<li></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/rohit-bansal-1.png" alt="Rohit Bansal" />
+					<h3>Rohit Bansal</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Directi</p>
+					<div class="certification-details">
+						<p class="certification-name">Advanced Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class="yellow"></li>
+							<li class="orange"></li>
+							<li class="red"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<img src="images/amit-chandra-1.png" alt="Amit Chandra" />
+					<h3>Amit Chandra</h3>
+					<p class="desg">Software Engineer</p>
+					<p class="company-name">Sharechat</p>
+					<div class="certification-details">
+						<p class="certification-name">Foundation Certified</p>
+						<ul class="cert-level">
+							<li class="blue"></li>
+							<li class=""></li>
+							<li class=""></li>
+							<li class=""></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<div class="social-section">
+			<h4>Follow us</h4>
+			<ul class="social-menu">
+				<li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a></li>
+				<li><a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
+				<li><a href="https://plus.google.com" target="_blank"><img src="images/google-plus.svg" alt="google plus"></a></li>
+				<li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="instagram"></a></li>
+			</ul>
+		</div>
+		<div class="footer-menus">
+			<div class="footer-container">
+				<div class="footer-menu">
+					<ul>
+						<li class="logo-image">
+							<img src="images/cc-dsa.jpg" alt="Dsa logo">
+						</li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Level</a></li>
+						<li><a href="#">Detail</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu">
+					<ul>
+						<li class="logo-image">
+							<img src="images/code-chef-footer-logo.jpg" alt="Code Chef logo">
+						</li>
+						<li><a href="#">Practice</a></li>
+						<li><a href="#">Corporate</a></li>
+						<li><a href="#">Discuss</a></li>
+						<li><a href="#">Collaborate</a></li>
+						<li><a href="#">Initiatives</a></li>
+						<li><a href="#">Community</a></li>
+					</ul>
+					<ul class="payment-methods">
+						<li><h3>Payment Methods</h3></li>
+						<li><img src="images/payment-methods.png" alt="Payment Methods"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>		
+
+		function setHeight() {
+			let height_element = getEle("#foundation_tab");
+			//alert(height_element.offsetHeight);
+			let parent_ele = getEle(".tabs-content");
+			parent_ele.style.height =  height_element.offsetHeight + 'px';
+		}		
+
+		function changeTab(elem) {
+			var active_tag = document.getElementById(elem.id + '_tab');
+			var elements = document.getElementsByClassName('tabs-wrapper active');
+			while(elements.length > 0){
+			    elements[0].classList.remove('active');
+			}
+			var elements1 = document.getElementsByClassName('tabs-link active');
+			while(elements1.length > 0){
+			    elements1[0].classList.remove('active');
+			}
+			setTimeout(function(e) {
+				active_tag.classList.add('active');
+			}, 500);
+			elem.classList.add('active');
+		}
+
+		let testiArr = [{
+            image: "images/amit-jha.png",
+            content: "CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india. CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india.",
+            name: "Amit Jha",
+            designation: "Software Engineer",
+            company: "Sharechat",
+            certificate: "Foundation Certified",
+            level: 2
+        },
+        {
+            image: "images/neha-gupta.png",
+            content: "CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india. CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india.",
+            name: "Amit Jha",
+            designation: "Software Engineer",
+            company: "Sharechat",
+            certificate: "Foundation Certified",
+            level: 1
+        },
+        {
+            image: "images/amit-chandra.png",
+            content: "CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india. CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india.",
+            name: "Amit Jha",
+            designation: "Software Engineer",
+            company: "Sharechat",
+            certificate: "Foundation Certified",
+            level: 2
+        },
+        {
+            image: "images/amit-jha.png",
+            content: "CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india. CCDSP gave my talent and hard work the opportunity to interview with the top tech companies in india.",
+            name: "Amit Jha",
+            designation: "Software Engineer",
+            company: "Sharechat",
+            certificate: "Foundation Certified",
+            level: 3
+        },
+        ]
+
+        let levelsArr = [
+        	'blue',
+        	'yellow',
+        	'orange',
+        	'red'
+        ];
+
+        let testiArrLen = testiArr.length;
+
+        function getEle(elem) {
+            return document.querySelector(elem);
+        }
+
+        function getHtml(i, ele) {
+            let prev = getEle(".prev");
+            let next = getEle(".next");
+            // Fade out
+            ele.style.opacity = 0;
+            prev.style.opacity = 0;
+            next.style.opacity = 0;
+            let content = testiArr[i].content;
+            let image_name = testiArr[i].image;
+            let name = testiArr[i].name;
+            let designation = testiArr[i].designation;
+            let company = testiArr[i].company;
+            let certification = testiArr[i].certificate;
+            let level = testiArr[i].level;
+            let html = '';
+            //html += '<li>';
+            html += '<img src="' + image_name + '" alt="Amit Jha" class="testimonial-image" />';
+            html += '<div class="testimonials-content">';
+            html += '<p class="testimonials-text">' + content + '</p>';
+            html += '<p class="name">' + name + '</p>';
+            html += '<p class="desg">' + designation + ', ' + company + '</p>';
+            html += '<div class="certification-details">';
+            html += '<p class="certification-name">' + certification + '</p>';
+            html += '<ul class="cert-level">';
+            for (i = 0; i < 4; i++) {
+            	let cls = '';
+            	if( i <= level ){
+            		cls = levelsArr[i];
+            	}
+            	html += '<li class="'+cls+'"></li>';
+            }
+            html += '</ul>';
+            html += '</div>';
+            html += '</div>';
+            //html += '</li>';
+            setTimeout(function () {
+                ele.innerHTML = html;
+                //Fade in
+                ele.style.opacity = 1;
+                prev.style.opacity = 1;
+                next.style.opacity = 1;
+            }, 500);
+        }
+
+        function setSliderContent() {
+            let left = getEle(".left");
+            let middle = getEle(".middle");
+            let right = getEle(".right");
+            getHtml(testiArrLen - 1, left);
+            getHtml(0, middle);
+            getHtml(1, right);
+        }
+
+        setSliderContent();
+
+        let prev = getEle(".prev");
+        let next = getEle(".next");
+
+        prev.onclick = fnPrev;
+        next.onclick = fnNext;
+
+        function fnPrev(e) {
+            e.preventDefault();
+            // remove last element 
+            let eleLast = testiArr.pop();
+            // insert at first location
+            testiArr.unshift(eleLast);
+            setSliderContent();
+        }
+
+        function fnNext(e) {
+            e.preventDefault();
+            // remove first element
+            let eleFirst = testiArr.shift();
+            // insert at last location
+            testiArr.push(eleFirst);
+            setSliderContent();
+        }
+	</script>
+</body>
+</html>
